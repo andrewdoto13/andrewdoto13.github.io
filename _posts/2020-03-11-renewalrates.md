@@ -1,6 +1,5 @@
 ---
 title: "Renewal Rate Distribution Analysis"
-permalink: /renewrate/
 classes: wide
 ---
 
