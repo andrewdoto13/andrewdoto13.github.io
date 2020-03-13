@@ -1,6 +1,7 @@
 ---
 title: "Renewal Rate Distribution Analysis"
 classes: wide
+tags: [python, normal distribution, sql, visualizations]
 ---
 
 
