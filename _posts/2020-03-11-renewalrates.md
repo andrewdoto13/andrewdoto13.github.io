@@ -292,7 +292,7 @@ plt.title("Distribution of Renewal Rates by Class")
 
 
 
-<img src="{{ site.url }}{{ site.baseurl }}/images/fig1.png" alt="">
+<img src="{{ site.url }}{{ site.baseurl }}/images/renewalrate/fig1.png" alt="">
 
 
 
@@ -306,7 +306,7 @@ plt.title("Class Renewal Rates by Aid Year")
 
 
 
-<img src="{{ site.url }}{{ site.baseurl }}/images/fig2.png" alt="">
+<img src="{{ site.url }}{{ site.baseurl }}/images/renewalrate/fig2.png" alt="">
 
 
 OK, so from the very beginning, you'll notice how I imported "norm" from the scipy package. This is the part of the scipy package that contains the functions and classes related to the normal distribution. I didn't know beforehand for sure what kind of distribution the renewal rates were going to look like, but I guess I was just hoping that they were at least close to normal. If you look at the distribution plot (the first figure),
