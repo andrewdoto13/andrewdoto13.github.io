@@ -7,7 +7,7 @@ read_time: false
 
 {% for post in site.posts %}
   <a href="{{ post.url }}">
-    {{ post.title }}
-    {{ post.tags }}
-  </a>
+  {{ post.title }} </a>
+  {{ post.tags }}
+  {{ post.excerpt }}
 {% endfor %}
