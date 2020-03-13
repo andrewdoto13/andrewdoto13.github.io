@@ -309,7 +309,9 @@ plt.title("Class Renewal Rates by Aid Year")
 <img src="{{ site.url }}{{ site.baseurl }}/images/renewalrate/fig2.png" alt="">
 
 
-OK, so from the very beginning, you'll notice how I imported "norm" from the scipy package. This is the part of the scipy package that contains the functions and classes related to the normal distribution. I didn't know beforehand for sure what kind of distribution the renewal rates were going to look like, but I guess I was just hoping that they were at least close to normal. If you look at the distribution plot (the first figure),
+OK, so from the very beginning, you'll notice how I imported "norm" from the SciPy package. This is the part of the SciPy package that contains the functions and classes related to the normal distribution. I didn't know beforehand for sure what kind of distribution the renewal rates were going to look like, but I guess I was just hoping that they were at least close to normal. The first plot is a distribution plot; it has a histogram and a kernal density estimate for each dataset, which in this case, are the renewal rates for each student class. As you would expect, sophomores and juniors have an increasingly better renewal rate. Now, I do realize I'm being a bit "loosey goosey" with concluding that the data is normally distributed. But hey, we only have 10 records (10 years of history for the award). And it *kinda* looks symmetrical around the mean with some noise, so I'll call it good :)
+
+So now, I'll go ahead and take the mean and standard deviation from the datasets of the student classes. The normal distribution has 2 parameters; the mean and standard deviation (sometimes you'll see variance, which you can get by squaring the standard deviation).
 
 
 ```python
@@ -318,12 +320,20 @@ so_mean, so_std = all_rates.Sophomore.mean(), all_rates.Sophomore.std()
 ju_mean, ju_std = all_rates.Junior.mean(), all_rates.Junior.std()
 ```
 
+Now that we have the mean and standard deviation for each student class, I can now use the norm function to construct the distribution. The norm function takes in the mean and standard deviation and generates data of any size that you specify.
+
 
 ```python
 fr_dist = norm(loc = fr_mean, scale = fr_std).rvs(size = 250)
 so_dist = norm(loc = so_mean, scale = so_std).rvs(size = 250)
 ju_dist = norm(loc = ju_mean, scale = ju_std).rvs(size = 250)
 ```
+
+For the future, what this will allow us to do is to ask python to take a random selection from this distribution, and we can then use that as the prediction for the renewal rate for the award for that student class. As we do that over and over, we've essentially done a random walk! In a future post, what I might do is revisit this question and see how this method performs over time by going back and seeing how the random selection from the distribution differed from the *actual* renewal rate that occurred.
+
+As a bonus, one of the things I remembered from the recent stats course was confidence intervals, so I wanted to calculate that for this data. This is nice because what it allows you say is, if you are speaking about a 95% confidence interval, that there is a 95% chance that the interval contains the "true" mean (in this case, the true mean renewal rate).
+
+The ppf function I used is called the percent point function. I'm not used to that name, I just remember using the qnorm function in the R programming language. But this function is the analogue to the qnorm function; It gives you the inverse of the cumulative distribution function (CDF). You give it the quantile that you desire, and then it gives you the number of standard deviations that relates to that quantile. You'll notice that I gave it 0.975 instead of 0.95; I did this because I am interested in the upper and lower bounds. This part really confused me at first, but when you really think about what the CDF is telling you, it makes sense. The ppf function is going to give me the z-score (the amount of standard deviations) for the normal distribution such that 97.5% of the data is below that z-score. Well, if I do that for the part of the distribution both above **and** below the mean, 2.5% + 2.5% = 5%, the 95% interval. That is why you'll see that I added *and* subtracted from the mean, giving the upper and lower bound of the distribution.
 
 
 ```python
@@ -344,3 +354,8 @@ print("\nThe 95% confidence interval for Junior renewal rate is: ", ju_conf_int)
     The 95% confidence interval for Sophomore renewal rate is:  (0.444, 0.632)
 
     The 95% confidence interval for Junior renewal rate is:  (0.468, 0.743)
+
+
+And there you have it! Thank you for taking the time to read this over, I hope this made sense to you and maybe it will inspire you to use python, the normal distribution, or visualization in your work. Feel free to reach out to me via email or through Linkedin if you have any feedback or questions.
+
+Take care!
