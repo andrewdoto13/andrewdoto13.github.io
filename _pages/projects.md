@@ -9,6 +9,5 @@ read_time: false
   <a href="{{ post.url }}"> {{ post.title }} </a>
   <p>
     {{ post.date | date_to_string}} <br>
-    {{ post.excerpt }}
   </p>
 {% endfor %}
