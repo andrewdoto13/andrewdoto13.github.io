@@ -201,7 +201,7 @@ ju = df.loc[df.clas_desc == "Junior"]
 se = df.loc[df.clas_desc == "Senior"]
 ```
 
-Now for each of the objects, we'll create pivot table that provides the count of students grouped by aid year and by their renewal status. You'll see an example for the freshmen below.
+Now for each of the objects, we'll create a pivot table that provides the count of students grouped by aid year and by their renewal status. You'll see an example for the freshmen below.
 
 
 ```python
