@@ -191,7 +191,7 @@ print(classes)
     ['Freshman', 'Sophomore', 'Junior', 'Senior']
 
 
-Now I'll go ahead and create a separate object for each class. Basically I've filtered the main dataset by the student class and then put them into their own object
+Now I'll go ahead and create a separate object for each class. Basically, I've filtered the main dataset by the student class and then put them into their own object
 
 
 ```python
