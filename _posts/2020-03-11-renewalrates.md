@@ -25,13 +25,15 @@ For planning and budgeting purposes, what we do now is that we take the renewal 
 
 After taking a stats course and learning more about the applications of probability distributions, I thought that we could take advantage of the distribution of renewal rates for each of the student classes. We can select a random rate from that distribution to then apply it to the budget; this concept is called a random walk. I think I'd like to provide some sources or videos that go through some of the stats/data science concepts in this article, and perhaps I'll add that down the line. But for now, YouTube, edX, DataCamp, google, StackOverflow, etc. are seriously amazing to find out basically anything nowadays, if you find yourself interested in learning more about a particular thing.
 
-Basically, my thought process is that we can take the ten year historical data for the Golden Grizzly Guarantee (GGG) and find the mean and standard deviation of renewal rates for each class (Freshman, Sophomore, etc). We can then use python's scipy module to construct a normal distribution using the mean and standard deviation as the parameters, from which we can take random samples or selections from to model the future. I remember using a random walk to predict future stock prices in a DataCamp course recently, so this is sort of a similar process.
+Basically, my thought process is that we can take the ten year historical data for the Golden Grizzly Guarantee (GGG) and find the mean and standard deviation of renewal rates for each class (Freshman, Sophomore, etc). We can then use python's SciPy module to construct a normal distribution using the mean and standard deviation as the parameters, from which we can take random samples or selections from to model the future. I remember using a random walk to predict future stock prices in a DataCamp course recently, so this is sort of a similar process.
 
 For this project, I've used python as the tool of choice and the development environment was a Jupyter Notebook. The code displayed in the sections below are actually what I used; the only change would be where I hid the pidms (database index) when I show an example rowset of the data I pulled from the database. As I go along showing you the code snippets, I'll describe my thought process and what the code is doing.
 
 Let's begin by retrieving some data from the database!
 
 The code snippet below shows the query that I used to get the data. The SQL displayed here wasn't run through the Jupyter Notebook I used for this project, but I have done it previously where you can connect to the database straight from the Jupyter Notebook (maybe a future post??). It's pretty sweet and useful, actually! In this case, I executed the query in Oracle SQL Developer and then saved the export to an xlsx file.
+
+I included the SQL in the code-block below for anyone that is interested in how I pulled the data. The only real interesting thing is the subquery that "checks" the next aid year, which I used to identify which students renewed the award. If you aren't familiar with SQL, by all means, skip the following code-block.
 
 
 ```python
@@ -79,7 +81,7 @@ order by 1,2
 '''
 ```
 
-I'm going to use just a very basic complement of libraries here, all standard for simple data sciency stuff.
+Alright! So the code-blocks below are snippets from the jupyter notebook that I used for this project. The first block is where I imported the necessary python packages in order to do what I needed to do. It's all just very basic and standard packages for simple data sciency stuff.
 
 
 ```python
