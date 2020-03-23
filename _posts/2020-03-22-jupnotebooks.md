@@ -2,7 +2,7 @@
 title: "Using Jupyter Notebooks for transparency and reproducibility"
 classes: wide
 tags: [python, jupyter notebooks]
-desc: "Jupyter Notebooks are a great tool for everyday analysis and is my go-to tool"
+desc: "Jupyter Notebooks are a great tool for everyday analysis"
 ---
 
 # Using Jupyter Notebooks for transparency and reproducibility
