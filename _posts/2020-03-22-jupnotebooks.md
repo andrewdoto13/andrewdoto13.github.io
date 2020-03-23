@@ -5,8 +5,6 @@ tags: [python, jupyter notebooks]
 desc: "Jupyter Notebooks are a great tool for everyday analysis"
 ---
 
-# Using Jupyter Notebooks for transparency and reproducibility
-
 A Jupyter Notebook is an amazing tool. I was introduced to Jupyter Notebooks in the beginning of my coursework through IU's data science program, and aside from python and its data science libraries, it has been probably the most transformational thing/tool I've learned since I've gotten interested in analytics. You can sing the praises of Jupyter Notebooks until the cows come home, but for this post, I'd like to focus on how it helps with transparency and reproducibility.
 
 Often times at my past few jobs as well as currently, I'll get a descriptive question that I would have to answer, like "Which of the classes we offered this past academic year had the highest and lowest average GPA?" or "Of the non-resident students that got XYZ award this past year, what other awards did they get and how much in total did they get?". Now, these aren't necessarily the toughest questions in the world to answer, but they can get fairly complicated. But, when you have to revisit that question months later, it gets difficult to remember your exact approach to the problem. In the past, I would pull data from the database into an excel sheet and do whatever filtering/pivoting/vlookup-ing to find the answer that way. But when you have to revisit that excel sheet months later, unless you had really good supplemental documentation, it can be a challenge.
