@@ -131,8 +131,7 @@ class AndyKNNClassifier(object):
 
     def score(self, X, y):
         """
-        Return a dictionary which contains accuracy and Lp
-        error metrics
+        Return a dictionary which contains accuracy
 
         Args:
             X(ndarray):    objects to predict
