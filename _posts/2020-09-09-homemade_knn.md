@@ -296,4 +296,4 @@ sns.lineplot(x='n_neighbors',
 <img src="{{ site.url }}{{ site.baseurl }}/images/knn/knn_score.png" alt="">
 
 
-So that's it! It's a basic implementation but I'm proud that I finally got it work, using only Numpy! Once again, let me know your thoughts and thank you for taking the time to read through this. Take care!
+So that's it! It's a basic implementation but I'm proud that I finally got it to work, using only Numpy! Once again, let me know your thoughts and thank you for taking the time to read through this. Take care!
