@@ -2,7 +2,7 @@
 title: "Numpy-based Object-oriented KNN Classifier From Scratch"
 classes: wide
 tags: [python, machine learning, knn, numpy]
-desc: "Numpy-based Object-oriented KNN Classifier From Scratch"
+desc: "Working on a class project building Numpy-based KNN Classifier from scratch"
 ---
 
 In the Applied Machine Learning class that I am in, our instructors have tasked us with building a KNN classifier from scratch. No SKLearn, no pandas. I was really excited by this challenge, because I want to take my career in the direction of machine learning and its applications; I am keen to dig into the algorithm's engineering so that I have a better understanding of the inner-workings. I'll tell ya, I never realized how much of a crutch pandas and SKLearn together are for me, but this project was revealing, in a good way. Using solely Numpy was certainly tough but I think this exercise made me a better programmer. It also makes me excited for the weeks ahead, as I know I have a long way to go!
