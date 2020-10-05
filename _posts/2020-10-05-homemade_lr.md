@@ -141,7 +141,7 @@ class AndyLinRegGD(object):
         Utilizes the fitted model to generate predictions
 
         Args:
-            X(ndarray):        training data
+            X(ndarray):        data to predict target value for
         Return:
             predictions(array)
         """
