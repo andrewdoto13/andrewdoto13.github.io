@@ -97,7 +97,7 @@ author:
   name             : "Andy Doto"
   avatar           : "/images/profile_pic.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "Data Scientist"
-  location         : "Farmington Hills, MI"
+  location         : "Canton, MI"
   email            :
   links:
     - label: "Email"
