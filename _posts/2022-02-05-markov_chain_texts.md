@@ -29,7 +29,7 @@ import numpy as np
 
 pd.set_option('display.max_columns', None)
 conn = sqlite3.connect('chat.db')
-phone_number = '+15868713447'
+phone_number = 'phone_number'
 ```
 
 This next cell here contains the query I used to pull the texts; I've removed the phone number, but for this example I'm using texts from my sister-in-law Kathleen as the corpus (I don't think she will mind!). Then I used pandas to execute the query and load the data into a DataFrame.
