@@ -1,3 +1,8 @@
+title: "Random Walks on a Markov Chain constructed from Text Messages"
+classes: wide
+tags: [python, machine learning, linear-regression, numpy]
+desc: "Using text messages as a corpus to construct Markov Chains to auto-generate texts"
+
 # Random Walks on a Markov Chain constructed from Text Messages
 
 In the Winter of 2021, I took a course called "Elements of Artificial Intelligence" as part of my data science master's program. One of my favorite modules from the course was on Hidden Markov models, and Markov Chains were a part of that module. I think I really enjoyed its simplicity and applicability; they are easy to understand and I thought that it might be fun to play with Markov Chains for a small side project. I was particularly inspired by one of the slides Prof. Crandall presented, where he detailed this project where some researchers had constructed a Markov Chain from posts on an early-internet version of a dating website. They were able to do "random walks" along this Markov Chain to produce automatically-generated posts. The results sort-of made sense but not quite, so the sentences in these generated posts were just hilarious.
