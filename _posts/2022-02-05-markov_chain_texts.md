@@ -13,7 +13,7 @@ Before I delve into the implementation, I'll give a quick high-level overview of
 
 **A few quick notes**
 
-* There are a few ways where I'd like to eventually optimize the code, namely, using Numpy-based operations to constructing the probabilities
+* There are a few ways where I'd like to eventually optimize the code, namely, using Numpy-based operations to construct the probabilities
 * There's definitely some clean-up to the text messages that I could do. For example, when somebody does a "Tapback," (it's when somebody "reacts" to a text inside the Messages app), it's recorded in the database like "'Laughed at \[text].'"
 * I will eventually go back and "clean up" the code; this is just meant to be more hacky and fun. My family and I have been getting some good laughs out of it, so from that standpoint, it's been mission-accomplished.
 
