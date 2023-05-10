@@ -55,7 +55,7 @@ years[0:5]
 
 ## Define Web Scraping Function
 
-Now that we have a data structure for the roster years, we will now move on to defining a function that will perform the request to the server and collect and wrangle the data we are looking for. This is the most challenging part of the process, because you can't know how to locate the data you are looking for just by virtue of knowing the website. For this demonstration, we will use the "Inspect" tool in Google Chrome to figure out how to locate the data. Before moving on, we suggest you look over this article. It shows the exact process that we used in order to locate the html tags and attributes we need.
+Now that we have a data structure for the roster years, we will now move on to defining a function that will perform the request to the server and collect and wrangle the data we are looking for. This is the most challenging part of the process, because you can't know how to locate the data you are looking for just by virtue of knowing the website. For this demonstration, we will use the "Inspect" tool in Google Chrome to figure out how to locate the data. Before moving on, I suggest you look over this article. It shows the exact process that we used in order to locate the html tags and attributes we need.
 
 > https://www.greengeeks.com/tutorials/use-the-inspect-element-tool-in-chrome/
 
@@ -648,4 +648,4 @@ sns.despine()
 iubb.to_csv("iubb_rosters.csv", index = False)
 ```
 
-And that concludes this web scraping example! Thank you for following along and we hope you found this a helpful introduction to web scraping.
+And that concludes this web scraping example! Thank you for following along and I hope you found this a helpful introduction to web scraping.
