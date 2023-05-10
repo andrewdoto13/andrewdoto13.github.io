@@ -1,8 +1,8 @@
 ---
 title: "Exploring Expected Goals in Soccer with the Poisson Distribution"
 classes: wide
-tags: [python, web scraping, indiana university]
-desc: "Demonstrating web scraping with a simple real world example"
+tags: [python, statistics, poisson distribution, probability, socccer]
+desc: "Digging deeper into soccer analytics with probability distributions"
 ---
 
 Expected points (xP) in soccer as an analytics concept is fairly new, but it is growing in popularity in recent times, as of April 2023. The idea behind it and how it is calculated is less well-known, so I'd like to take the chance with this post to dive deeper into expected points, with an illustrative toy example that poses the idea in an interesting way. A post from [Tony's Blog](https://tonyelhabr.rbind.io/posts/epl-xpts-simulation-1/#fn3) was the inspiration for this post as well, so I wanted to give a shout out.
