@@ -90,7 +90,7 @@ _=plt.xlabel("Total Goals")
 
 
     
-![png](output_4_1.png)
+<img src="{{ site.url }}{{ site.baseurl }}/images/poisson/poisson.png" alt="">
     
 
 

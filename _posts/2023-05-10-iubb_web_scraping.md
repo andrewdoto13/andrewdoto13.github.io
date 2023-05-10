@@ -639,7 +639,7 @@ sns.despine()
 ```
 
 
-<img src="{{ site.url }}{{ site.baseurl }}//images/web_scraping/iu_bb.png" alt="">
+<img src="{{ site.url }}{{ site.baseurl }}/images/web_scraping/iu_bb.png" alt="">
 
 
 
