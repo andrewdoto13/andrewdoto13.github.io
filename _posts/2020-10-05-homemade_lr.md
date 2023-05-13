@@ -1,8 +1,8 @@
 ---
-title: "Linear Regression Gradient Descent from Scratch"
+title: "Linear Regression from Scratch"
 classes: wide
 tags: [python, machine learning, linear-regression, numpy]
-desc: "Exploring linear regression by building from scratch"
+desc: "Exploring linear regression and gradient descent by building from scratch"
 ---
 
 In the past few weeks of my Applied Machine Learning course, we've been focusing on linear regression and its extensions. I wanted to continue my exploration of the algorithms by trying to build an implementation from scratch. A main part of this section of the course focused on gradient descent, so this implementation uses gradient descent as the main driver of the algorithm, as opposed to the closed-form solution to linear regression. As I did with K Nearest Neighbors, I built an object-oriented implementation modeled after the SKLearn "fit-predict" paradigm. Here are a few other notes about this project:
