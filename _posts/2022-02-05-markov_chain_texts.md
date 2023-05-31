@@ -1,5 +1,5 @@
 ---
-title: "Random Walks on a Markov Chain constructed from Text Messages"
+title: "Modeling Text Messages with Markov Chains"
 classes: wide
 tags: [python, markov chain, artificial intelligence]
 desc: "Using text messages as a corpus to construct Markov Chains to auto-generate texts"

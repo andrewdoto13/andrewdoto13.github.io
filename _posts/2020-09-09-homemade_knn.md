@@ -1,5 +1,5 @@
 ---
-title: "K-Nearest Neighbor Classifier From Scratch"
+title: "K-Nearest Neighbors Classifier from Scratch"
 classes: wide
 tags: [python, machine learning, knn, numpy]
 desc: "Building a K-NN Classifier from scratch using solely NumPy"

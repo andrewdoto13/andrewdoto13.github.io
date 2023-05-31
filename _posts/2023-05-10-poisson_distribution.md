@@ -1,5 +1,5 @@
 ---
-title: "Exploring Expected Goals in Soccer with the Poisson Distribution"
+title: "Modeling Expected Points with the Poisson Distribution"
 classes: wide
 tags: [python, statistics, poisson distribution, probability, soccer]
 desc: "Digging deeper into soccer analytics with probability distributions"
