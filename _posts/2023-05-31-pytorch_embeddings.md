@@ -32,7 +32,7 @@ print(word_vectors["dogs"])
     tensor([0, 0, 1])
 
 
-One-hot vectors are a simple way to represent text data, and they are still used frequently is traditional machine learning. However, they are not without flaws. First, a somewhat obvious flaw is the dependence of the vector length on the size of the vocabulary. In applications where the corpus is extensive, this makes one-hot vectors an intractible or inefficient solution. 
+One-hot vectors are a simple way to represent text data, and they are still used frequently in traditional machine learning. However, they are not without flaws. First, a somewhat obvious flaw is the dependence of the vector length on the size of the vocabulary. In applications where the corpus is extensive, this makes one-hot vectors an intractible or inefficient solution. 
 
 Another flaw is that one-hot vectors can't contain semantic similarity between words. Notice in the example above, each vector is similarly different from all of the other vectors. It would be ideal if vectors could be created such that a similarity score could be calculated between vectors and therefore "semantic information" can be encoded in them. Enter embeddings, which we will explore below in the PyTorch library.
 
