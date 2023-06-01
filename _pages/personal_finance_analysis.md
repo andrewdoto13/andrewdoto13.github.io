@@ -7,4 +7,4 @@ header:
 classes: wide
 ---
 
-Testing out new page
+Write about giving back to the community by helping others with their finances
