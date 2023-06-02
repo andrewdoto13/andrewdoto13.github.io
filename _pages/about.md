@@ -1,6 +1,7 @@
 ---
 title: "About Me"
 permalink: /about/
+author_profile: true
 header:
   image: "/images/header2.jpg"
 classes: wide
