@@ -49,4 +49,4 @@ There's a very simple process that we can go through. Here's how it can go:
     * Ultimately, what do you want the next 5, 10, 20, 40 years to look like?
     * This is the fun part!
 
-Don't hesitate reach out if you need help, I'd be happy to do whatever I can. Again, you can find my email and Linkedin on the left side of the page. Thank you and take care!
+Don't hesitate reach out if you need help. I'd be happy to do whatever I can. Again, you can find my email and Linkedin on the left side of the page. Thank you and take care!
