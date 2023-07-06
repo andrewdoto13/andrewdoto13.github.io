@@ -12,7 +12,7 @@ One of my passions is personal finance. Planning and strategy with money didn't 
 
 If this is something I can help with, I would like to do it. I've come to really enjoy helping family and friends with their personal finances, so why not offer to help others? Strange as it sounds, I see it as way to give back to my community, and to my country by extension. After all, more stable finances leads to more stable families. More stable families leads to more stable communities, and so on. 
 
-I would be happy to meet, walk through your finances, and be there to help however I can as you wrangle your finances. I will **not** ask for any payment and I have **absolutely nothing** to sell to you. You can find my email and my Linkedin over on the left side of the page, so don't hesitate to reach out. If you are interested in learning more, continue reading the sections below about my philosophy and what I can help you with.
+I would be happy to meet, introduce some principles, and be there to help however I can as you wrangle your finances. I will **not** ask for any payment and I have **absolutely nothing** to sell to you. You can find my email and my Linkedin over on the left side of the page, so don't hesitate to reach out. If you are interested in learning more, continue reading the sections below about my philosophy and what I can help you with.
 
 ## Personal finances and agency
 In my view, personal finance is all about behavior. I think it can be misconstrued and become unnecessarily intimidating. All you need to start is a strong foundation, and that foundation is made of just simple, basic stuff.
