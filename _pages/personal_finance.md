@@ -42,7 +42,7 @@ The monthly budget is one of the, if not the most important tool in your arsenal
 
 ### Plan
 
-With a budget in hand, you can begin to consider the path forward. A nice way to start thinking about your plan is to learn about the [Ramsey Baby Steps](https://www.ramseysolutions.com/dave-ramsey-7-baby-steps). It's a framework to establish a (long time-horizon) thinking pattern for your finances. It's a great way to begin and I'd highly recommend it. This part is really fun because you can dream about and plan for where you want to go and the life you want to build for you and your family.
+With a budget in hand, you can begin to consider the path forward. A nice way to start thinking about your plan is to learn about the [Ramsey Baby Steps](https://www.ramseysolutions.com/dave-ramsey-7-baby-steps). It's a framework to establish a long-term thinking pattern for your finances. It's a great way to begin and I'd highly recommend it. This part is really fun because you can dream about and plan for where you want to go and the life you want to build for you and your family.
 
 ### Career
 
