@@ -1,6 +1,6 @@
 ---
-title: "Data Science Projects"
-permalink: /projects/
+title: "Data Science"
+permalink: /datascience/
 author_profile: true
 read_time: false
 ---

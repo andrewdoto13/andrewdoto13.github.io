@@ -2,9 +2,9 @@
 main:
   - title: "About Me"
     url: /about/
-  - title: "Data Science Projects"
-    url: /projects/
-  - title: "Personal Finance Analysis"
+  - title: "Data Science"
+    url: /datascience/
+  - title: "Personal Finance"
     url: /personalfinance/
   # - title: "About"
   #   url: https://mmistakes.github.io/minimal-mistakes/about/
