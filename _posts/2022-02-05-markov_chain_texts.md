@@ -1,11 +1,11 @@
 ---
-title: "Modeling Text Messages with Markov Chains"
+title: "Elementary AI: Modeling Text Messages with Markov Chains"
 classes: wide
 tags: [python, markov chain, artificial intelligence]
 desc: "Using text messages as a corpus to construct Markov Chains to auto-generate texts"
 ---
 
-In the Winter of 2021, I took a course called "Elements of Artificial Intelligence" as part of my data science master's program. One of my favorite modules from the course was on Hidden Markov models, and Markov Chains were a part of that module. I think I really enjoyed its simplicity and applicability; they are easy to understand and I thought that it might be fun to play with Markov Chains for a small side project. I was particularly inspired by one of the slides Prof. Crandall presented, where he detailed this project where some researchers had constructed a Markov Chain from posts on an early-internet version of a dating website. They were able to do "random walks" along this Markov Chain to produce automatically-generated posts. The results sort-of made sense but not quite, so the sentences in these generated posts were just hilarious.
+In the Winter of 2021, I took a course called "Elements of Artificial Intelligence" as part of my data science master's program. I really enjoyed it, and it has inspired to to have an on-going article exploring Elementary AI topics. In that spirit, one of my favorite modules from the course was on Hidden Markov models, and Markov Chains were a part of that module. I think I really enjoyed its simplicity and applicability; they are easy to understand and I thought that it might be fun to play with Markov Chains for a small side project. I was particularly inspired by one of the slides Prof. Crandall presented, where he detailed this project where some researchers had constructed a Markov Chain from posts on an early-internet version of a dating website. They were able to do "random walks" along this Markov Chain to produce automatically-generated posts. The results sort-of made sense but not quite, so the sentences in these generated posts were just hilarious.
 
 Taking that idea, I thought that I could apply this concept of having some corpus of text and constructing a Markov Chain from it. We had an assignment during the class that had us develop an implementation of a Hidden Markov Model, so it wouldn't be too difficult to tweak slightly for a small side project. I came up with the idea to use text messages from my family and friends as the corpus of text to construct the Markov Chain's transition and initial state probabilities.
 
